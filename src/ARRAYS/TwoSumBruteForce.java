@@ -33,8 +33,8 @@ public static void main(String[] args) {
 	int sum1[]=array(sum, target);
 //	System.out.println(sum1.length);
 	for (int i = 0; i < sum1.length; i++) {
-		System.out.println("THE INDEX ARE ");
-		System.out.println(sum1[i]);
+		System.out.println("THE INDEX ARE :"+ sum1[i]);
+	
 		
 	}
 	

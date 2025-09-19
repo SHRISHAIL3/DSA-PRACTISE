@@ -3,12 +3,13 @@ package ARRAYS;
 
 
 public class BuySellStock {
+	static int purchased ;
+	 static int sold ;
 	
 	public static int decide(int prices[]) {
 		int buy=Integer.MAX_VALUE;
 		int maxprofit=0;
-		int purchased = 0;
-		int sold = 0;
+		
 		
 		for (int i = 0; i < prices.length; i++) {
 			if (buy<prices[i]) {
